@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>LegitTech</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("https://images.unsplash.com/photo-1585386959984-a41552231693");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            max-width: 600px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #00c3ff;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #00a3d9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Köszöntelek a LegitTech oldalán!</h1>
+        <p>Itt csak eredeti termékek vannak.</p>
+
+        <a class="btn" href="https://www.vinted.hu/member/3125936722-levinandihun" target="_blank">
+            Vásárláshoz katt ide
+        </a>
+    </div>
+
+</body>
+</html>
